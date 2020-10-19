@@ -4,6 +4,7 @@ function calcAmicable(numberOne, numberTwo) {
   var sumOfArrayOne = addArray(firstFactors);
   var sumOfArrayTwo = addArray(secondFactors);
 
+
   if (sumOfArrayOne == numberTwo && sumOfArrayTwo == numberOne) {
     showNumbers(numberOne, numberTwo);
   } else {
