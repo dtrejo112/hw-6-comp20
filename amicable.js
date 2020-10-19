@@ -3,7 +3,7 @@ function calcAmicable(numberOne, numberTwo) {
   var secondFactors = getFactors(numberTwo);
   var sumOfArrayOne = addArray(firstFactors);
   var sumOfArrayTwo = addArray(secondFactors);
-  alert(firstFactors);
+  
 
   if (sumOfArrayOne == numberTwo && sumOfArrayTwo == numberOne) {
     showNumbers(numberOne, numberTwo);
